@@ -28,4 +28,8 @@ def solution(x: np.array) -> float:
     if mses[2] < mse_thresholds[0]:
         score += 1
     
-    return a
+    return np.mean(a)
+
+
+
+
